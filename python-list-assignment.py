@@ -12,3 +12,8 @@ my_list.extend([50,60,70])
 my_list.pop()
 
 my_list.sort()
+
+print(my_list)
+
+index_of_30 = my_list.index(30)
+print("The index of 30 is:", index_of_30)
